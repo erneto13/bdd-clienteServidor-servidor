@@ -45,7 +45,7 @@ namespace PRAC1_ClienteServidor_Sockets
                     }
                     Console.WriteLine(cadena);
                     // Conectamos al SQL Server
-                    string connectSQL = "Server=EQUIPODEERNESTO;database=BDD_Practicas;" + " Integrated Security=SSPI;";
+                    string connectSQL = "Server=BD-NOMBRE;database=BD-NOMBRE;" + " Integrated Security=SSPI;";
                     SqlConnection cm = new SqlConnection();
                     cm.ConnectionString = connectSQL;
                     cm.Open();
